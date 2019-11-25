@@ -1,12 +1,11 @@
-'use strict';
+"use strict";
 
-require("./requestAnimationFrame");
+require("./RequestAnimationFrame");
 require("./libpannellum");
 require("./pannellum");
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
-
 
 exports.default = pannellum;
